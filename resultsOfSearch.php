@@ -46,25 +46,22 @@ mysqli_select_db($connection,'podcast_list_lda6'); /*or die(mysqli_error($connec
     </div>
 </div>
 
-<!-- Header
+<!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-    <img class="w3-image" src="https://cdn.glitch.com/3d341d85-37b3-49a9-9d6e-20a47e7d531f%2Fheadphone%20lady.jpg?1551908620507" alt="Architecture" width="1500" height="800">
+    <img class="w3-image" src="../resultsOfSearch-page-header-banner.jpg" width="1500">
     <div class="w3-display-middle w3-margin-top w3-center">
         <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Enjoy</b></span> <span class="w3-hide-small w3-text-light-grey">Podcasts</span></h1>
     </div>
-</header> -->
-
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-    <img class="w3-image" src="https://cdn.glitch.com/3d341d85-37b3-49a9-9d6e-20a47e7d531f%2Fheadphone%20lady.jpg?1551908620507" style="height: 300px;" >
-    <div class="w3-display-middle w3-margin-top w3-center">
-        <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Enjoy</b></span> <span class="w3-hide-small w3-text-black">Podcasts</span></h1>
-    </div>
 </header>
+
+
 
 <div class="w3-content w3-padding" style="max-width:1564px">
 
     <!-- Project Section -->
-</div>
+    <div class="w3-container" id="projects" style="padding-bottom: 16px;">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Results Based On Your Input</h3>
+    </div>
 
 <?php
 $query = $_GET['query'];
@@ -183,6 +180,7 @@ else{ // if query length is less than minimum
     echo "Minimum length is ".$min_length;
 }
 ?>
+</div>
 
 </body>
 </html>

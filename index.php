@@ -51,9 +51,9 @@ mysqli_select_db($connection,'podcast_list_lda6'); /*or die(mysqli_error($connec
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-    <img class="w3-image" src="https://cdn.glitch.com/3d341d85-37b3-49a9-9d6e-20a47e7d531f%2Fpic04.jpg?1551832758831" style="height: 300px;" >
+    <img class="w3-image" src="../index-page-header-banner.jpg" width="1500">
     <div class="w3-display-middle w3-margin-top w3-center">
-        <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Enjoy</b></span> <span class="w3-hide-small w3-text-black">Podcasts</span></h1>
+        <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Enjoy</b></span> <span class="w3-hide-small w3-text-light-grey">Podcasts</span></h1>
     </div>
 </header>
 
@@ -61,7 +61,7 @@ mysqli_select_db($connection,'podcast_list_lda6'); /*or die(mysqli_error($connec
 <div class="w3-content w3-padding" style="max-width:1564px">
 
     <!-- Project Section -->
-    <div class="w3-container w3-padding-32" id="projects">
+    <div class="w3-container" id="projects" style="padding-bottom: 16px;">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Podcast We Find Interesting</h3>
     </div>
 
